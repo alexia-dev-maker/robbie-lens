@@ -1,0 +1,75 @@
+.carre-contenu /* Texte descriptif des diff services*/ {
+  border-right: 1px solid #8e86b5;
+  border-bottom: 1px solid #8e86b5;
+  padding: 70px;
+  width: 50%; 
+  margin: auto; 
+  margin-bottom: 40px;
+}
+
+.carre-contenu h2 {
+  margin-top: 50px;
+}
+
+.carre-contenu ul {
+  margin-top: 50px;
+}
+
+.carre-contenu + div/*correspond aux liens vers les réseaux et logo robbie lens*/ {
+  text-align: center;
+}
+
+.a-propos-main /*texte a propos*/ {
+  margin: auto;
+}
+
+table {
+  color: white; 
+  text-align: center;
+  border-collapse: collapse; 
+  margin: auto;   
+  width: 100% center; 
+}
+
+td, th {
+  border: 1px solid #a5b4fc;
+  padding: 15px; 
+}
+
+caption, td, th {
+  color: white; 
+}
+
+td {
+  padding: 20px; 
+}
+
+h1, h2 {
+  text-align: center; 
+}
+
+caption { 
+  font-size: 1.5em; 
+  margin-bottom: 80px; ; 
+}
+
+footer {
+  margin-top: 80px; 
+}
+
+.cta {
+  margin: auto; 
+  margin-bottom: 100px;
+  margin-top: 10px; 
+}
+
+@media screen and (max-width: 996px) {
+  table {
+    display: none; 
+  }
+}
+
+
+
+
+
